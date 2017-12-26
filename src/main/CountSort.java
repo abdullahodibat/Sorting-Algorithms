@@ -16,8 +16,8 @@ public class CountSort {
         nums[6] = 9;
         nums[7] = 8;
         int[] result = countSort(nums);
-        for (int k : result) {
-            System.out.println(k);
+        for (int num : result) {
+            System.out.println(num);
         }
     }
 

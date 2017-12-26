@@ -7,8 +7,8 @@ public class InsertionSort {
     public static void main(String a[]) {
         int[] arr1 = {10, 34, 2, 56, 7, 67, 88, 42};
         doInsertionSort(arr1);
-        for (int i : arr1) {
-            System.out.print(i);
+        for (int num : arr1) {
+            System.out.print(num);
             System.out.print(", ");
         }
     }

@@ -5,9 +5,7 @@ package main;
  */
 public class QuickSort {
     public static void main(String args[]) {
-        int x = 10;
-        int y = 25;
-        int z = x + y;
+
         int[] arr = {8, 4, 5, 1, 2, 3, 6, 9, 8};
 
         quickSort(arr);

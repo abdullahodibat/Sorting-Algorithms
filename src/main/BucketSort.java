@@ -8,11 +8,11 @@ import java.util.List;
  */
 public class BucketSort {
 
-    public static void main(String a[]) {
-        int[] arr1 = {10, 34, 2, 56, 7, 674, 882, 42, 0, 100};
-        bucketSort(arr1);
-        for (int i : arr1) {
-            System.out.print(i);
+    public static void main(String[] args) {
+        int[] arr = {10, 34, 2, 56, 7, 674, 882, 42, 0, 100};
+        bucketSort(arr);
+        for (int num : arr) {
+            System.out.print(num);
             System.out.print(", ");
         }
     }

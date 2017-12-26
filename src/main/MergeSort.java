@@ -5,15 +5,13 @@ package main;
  */
 public class MergeSort {
     public static void main(String args[]) {
-        int x = 10;
-        int y = 25;
-        int z = x + y;
+
         int[] arr = {8, 4, 5, 1, 2, 3, 6, 9, 8};
         int length = arr.length;
         int[] tmp = new int[length];
         mergeSort(arr, tmp, 0, length - 1);
-        for (int a : arr) {
-            System.out.println(a);
+        for (int num : arr) {
+            System.out.println(num);
         }
     }
 

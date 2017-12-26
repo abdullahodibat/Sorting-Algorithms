@@ -19,17 +19,17 @@ public class RadixSort {
         for (int exp = 1; max / exp > 0; exp *= 10)
             countSort(nums, exp);
 
-        for (int k : nums) {
-            System.out.println(k);
+        for (int num : nums) {
+            System.out.println(num);
         }
     }
 
-    static int getMax(int arr[]) {
-        int mx = arr[0];
+    static int getMax(int[] arr) {
+        int max = arr[0];
         for (int i = 1; i < arr.length; i++)
-            if (arr[i] > mx)
-                mx = arr[i];
-        return mx;
+            if (arr[i] > max)
+                max = arr[i];
+        return max;
     }
 
     public static void countSort(int[] nums, int exp) {
